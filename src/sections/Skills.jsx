@@ -14,17 +14,17 @@ const skills = [
 ];
 
 const Skills = () => {
-    return ( 
+    return (
         <section className="bg-white text-left rounded-xl p-2 md:p-5 shadow-md mt-6">
             <h2 className="text-lg md:text-2xl text-secondary-foreground mb-3">Skills</h2>
             <ul className="flex flex-wrap leading-7">
                 {skills.map((skill, index) => (
-                  <li key={index} className="mr-2" >
-                    <Tag name={skill} /></li>
+                    <li key={index} className="mr-2" >
+                        <Tag name={skill} /></li>
                 ))}
             </ul>
         </section>
-     );
+    );
 }
- 
+
 export default Skills;
