@@ -1,5 +1,9 @@
 import ProjectCard from "../components/ProjectCard";
 import todoListLogo from "/proj-logos/todo-list-logo.jpg";
+import resumeLogo from "/proj-logos/resume-logo.jpg";
+import libraryManagerLogo from "/proj-logos/library-manager-logo.jpg";
+import blogLogo from "/proj-logos/blogAPI-logo.jpg";
+import dashboardLogo from "/proj-logos/dashboard-layout-logo.jpg";
 
 const projects = [
     {
@@ -12,25 +16,25 @@ const projects = [
         name: "Resume",
         description: "This project is a simple, clean, and professional online resume built using HTML and CSS, following the BEM methodology for naming conventions. The resume includes sections for personal information, work experience, education, and skills.",
         url: "https://html-css-resume.netlify.app/",
-        imgUrl: "../proj-logos/resume-logo.jpg",
+        imgUrl: resumeLogo,
     },
     {
         name: "Library Manager",
         description: "A simple web application for managing a library with books and authors.",
         url: "https://library-manager-proj.netlify.app/",
-        imgUrl: "../proj-logos/library-manager-logo.jpg",
+        imgUrl: libraryManagerLogo,
     },
     {
         name: "Blog Landing Page API",
         description: "This project is a static blog landing page built using HTML, CSS, JavaScript and API. It includes a layout for displaying blog posts and a modal window for viewing detailed content.",
         url: "https://landing-page-api.netlify.app/",
-        imgUrl: "../proj-logos/blogAPI-logo.jpg",
+        imgUrl: blogLogo,
     },
     {
         name: "Dashboard layout",
         description: "This project provides a user interface for managing tasks and projects in a dashboard format using only HTML and CSS.",
         url: "https://web-layout-dashboard.netlify.app/",
-        imgUrl: "../proj-logos/dashboard-layout-logo.jpg",
+        imgUrl: dashboardLogo,
     },
 ];
 

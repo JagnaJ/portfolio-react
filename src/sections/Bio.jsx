@@ -1,11 +1,12 @@
 import { Linkedin, AtSign, GitBranch } from 'lucide-react';
+import myPhoto from "/src/assets/my-photo4.jpg";
 
 
 const Bio = () => {
     return (
         <section className="bg-white text-left rounded-xl p-2 md:p-5 shadow-md">
             <img
-                src="./src/assets/my-photo4.jpg"
+                src= {myPhoto}
                 alt="my profile photo"
                 className="h-32 w-32 rounded-full"
             />
