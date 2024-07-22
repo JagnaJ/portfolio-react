@@ -1,11 +1,12 @@
 import ProjectCard from "../components/ProjectCard";
+import todoListLogo from "/proj-logos/todo-list-logo.jpg";
 
 const projects = [
     {
         name: "To-Do List",
         description: "This To-Do List application is a simple JavaScript-based task manager allowing users to add, remove, and mark tasks as completed.",
         url: "https://github.com/JagnaJ/todo-list-peach",
-        imgUrl: "../proj-logos/todo-list-logo.jpg",
+        imgUrl: todoListLogo,
     },
     {
         name: "Resume",
