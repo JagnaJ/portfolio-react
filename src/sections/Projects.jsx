@@ -4,11 +4,18 @@ import resumeLogo from "/proj-logos/resume-logo.jpg";
 import libraryManagerLogo from "/proj-logos/library-manager-logo.jpg";
 import blogLogo from "/proj-logos/blogAPI-logo.jpg";
 import dashboardLogo from "/proj-logos/dashboard-layout-logo.jpg";
+import petBreedLogo from "/proj-logos/pet-breed-logo.jpg";
 
 const projects = [
     {
+        name: "Pet Breed Explorer",
+        description: "Pet Breed Explorer is a web application built with Next.js, TypeScript, Tailwind CSS and Redux Toolkit.",
+        url: "https://pet-breed-explorer-silk.vercel.app/",
+        imgUrl: petBreedLogo,
+    },
+    {
         name: "To-Do List",
-        description: "This To-Do List application is a simple JavaScript-based task manager allowing users to add, remove, and mark tasks as completed.",
+        description: "This To-Do List application built with is a JavaScript-based task manager allowing users to add, remove, and mark tasks as completed. (OOP, DOM Manipulation, Local Storage, Event Handling)",
         url: "https://github.com/JagnaJ/todo-list-peach",
         imgUrl: todoListLogo,
     },
@@ -20,7 +27,7 @@ const projects = [
     },
     {
         name: "Library Manager",
-        description: "A simple web application for managing a library with books and authors.",
+        description: "A web app built with HTML, CSS, JS in which users can add, view, update, and delete books, filter the list of books by title or author, and export the list of books. Data is stored in the browser's local storage.",
         url: "https://library-manager-proj.netlify.app/",
         imgUrl: libraryManagerLogo,
     },
