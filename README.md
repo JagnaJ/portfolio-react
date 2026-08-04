@@ -1,10 +1,55 @@
-# React + Vite
+# Frontend Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal frontend portfolio built with React and Vite.
 
-Currently, two official plugins are available:
+The project presents my professional profile, technical skills, and selected projects in a responsive web interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo
 
-# portfolio-react
+[View Portfolio](https://jportfolio-react.netlify.app/)
+
+## Features
+
+* Personal profile and contact links
+* Technical skills overview
+* Selected project showcase
+* Links to live projects and professional profiles
+* Responsive layout
+* Reusable React components
+
+## Tech Stack
+
+* React
+* JavaScript
+* Vite
+* Tailwind CSS
+* Lucide React
+
+## Getting Started
+
+```bash
+git clone https://github.com/JagnaJ/portfolio-react.git
+cd portfolio-react
+npm install
+npm run dev
+```
+
+## Available Scripts
+
+```bash
+npm run dev
+npm run build
+npm run lint
+npm run preview
+```
+
+## Project Structure
+
+```text
+src/
+├── components/
+├── sections/
+├── assets/
+└── App.jsx
+```
+
